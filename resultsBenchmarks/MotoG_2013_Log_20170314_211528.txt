@@ -1,0 +1,42 @@
+Benchmark started
+----------------
+N rows:10000 	N cols(numeric):50 	N cols(string):0 	Length strings:0
+Time SimpleInsertion: 4765 ms
+Time CompiledInsertion: 2421 ms
+Time CompiledInsertion_groupedRows: 1653 ms
+----------------
+N rows:10000 	N cols(numeric):100 	N cols(string):0 	Length strings:0
+Time SimpleInsertion: 8773 ms
+Time CompiledInsertion: 3025 ms
+Time CompiledInsertion_groupedRows: 2563 ms
+----------------
+N rows:10000 	N cols(numeric):0 	N cols(string):50 	Length strings:10
+Time SimpleInsertion: 5416 ms
+Time CompiledInsertion: 6117 ms
+Time CompiledInsertion_groupedRows: 6047 ms
+----------------
+N rows:10000 	N cols(numeric):0 	N cols(string):50 	Length strings:100
+Time SimpleInsertion: 17750 ms
+Time CompiledInsertion: 19635 ms
+Time CompiledInsertion_groupedRows: 17659 ms
+----------------
+N rows:10000 	N cols(numeric):0 	N cols(string):100 	Length strings:10
+Time SimpleInsertion: 7130 ms
+Time CompiledInsertion: 12207 ms
+Time CompiledInsertion_groupedRows: 11908 ms
+----------------
+N rows:10000 	N cols(numeric):0 	N cols(string):100 	Length strings:100
+Time SimpleInsertion: 34856 ms
+Time CompiledInsertion: 33367 ms
+Time CompiledInsertion_groupedRows: 35536 ms
+----------------
+N rows:5000 	N cols(numeric):50 	N cols(string):50 	Length strings:10
+Time SimpleInsertion: 3294 ms
+Time CompiledInsertion: 3167 ms
+Time CompiledInsertion_groupedRows: 3392 ms
+----------------
+N rows:5000 	N cols(numeric):50 	N cols(string):50 	Length strings:100
+Time SimpleInsertion: 13263 ms
+Time CompiledInsertion: 9737 ms
+Time CompiledInsertion_groupedRows: 9187 ms
+Benchmark finished
